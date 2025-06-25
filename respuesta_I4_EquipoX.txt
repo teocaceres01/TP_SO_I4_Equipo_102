@@ -11,3 +11,16 @@ Yellow
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 El de ALFA
 
+E- ¿Algún integrante tuvo problemas al hacer el push?
+si, solo beta y gamma tuvieron que hacer el marge
+F- ¿Qué problemas surgieron?
+mas que nada el merge para controlar los cambios en el archivo
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+primero hacemos un git pull origin TESTING antes del git push
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Elimina los cambios hechos anteriormente
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+primero hacemos un git pull origin TESTING, abrimos el archivo y controlamos los cambios manualmente, en git hacemos un git commit(en el editor, i - esc - :wq) y git push origin TESTING
+
